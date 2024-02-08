@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+nav{
+    text-align: center;
+}
+nav ul li{
+    font-size: 20px;
+    margin: 0 30px;
+}
+/*boostrap couleur*/
+.coucou .nav-link:hover,
+.coucou .active {
+    color: white;
+    transition: 1.5s;
+}
+body{
+    height: 100vh;
+    font-family: 'Mooli', sans-serif;
+}
+.conte1{
+    background: linear-gradient(rgba(0, 0, 0, 0.62),rgba(0, 0, 0, 0.62),rgba(0, 0, 0, 0.62)),url('2.jpeg');
+    background-size: cover;
+}
+.box{
+    width: 100%;
+    height: 600px;
+}
+.demo ul li{
+    list-style: none;
+    font-size: 40px;
+    border-radius: 150px;
+    height: 60px;
+    width: 60px;
+    background: #e0e0e0;
+   box-shadow:  24px 24px 100px #5a5a5a,
+             -24px -24px 100px #ffffff;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+}
+.demo .h5{
+    margin-left: 85px;
+}
+.bi-facebook:before {
+    color: #316FF6; /* Changer cette valeur pour changer la couleur de l'icône Facebook */
+}
+
+.bi-twitter:before {
+    color:#1DA1F2; /* Changer cette valeur pour changer la couleur de l'icône Twitter */
+}
+
+.bi-tiktok:before {
+    color: #000000; /* Changer cette valeur pour changer la couleur de l'icône TikTok */
+}
+
+.bi-whatsapp:before {
+    color: #128c7e; /* Changer cette valeur pour changer la couleur de l'icône WhatsApp */
+}
+.bi-instagram:before{
+    color :#E4405F ;/* Couleurs des icônes d*/
+}
+pre a{
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+pre a:hover,
+pre a:active{
+    color: blue!important;
+    transition: 0.5s;
+}
+.h4{
+    margin-left: 150px;
+}
